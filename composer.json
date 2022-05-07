@@ -1,0 +1,23 @@
+{
+    "name": "hesammousavi/myproject",
+    "description": "this is belongs to roocket.ir",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Hesam Mousavi",
+            "email": "hesammoousavi@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\" : "app/",
+            "Admin\\" : "admin/"
+        },
+        "files": [
+            "app/functions.php"
+        ]
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.3"
+    }
+}
